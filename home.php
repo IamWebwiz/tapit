@@ -56,15 +56,15 @@
 		<table width="100%">
 			<tr>
 				<td width="100px" valign="top">
-					<img src="assets/images/frsc.jpg" width="100px" height="100px">
+					<img src="assets/images/efcc-logo.jpg" width="100px" height="100px">
 				</td>
 				<td width="2%"></td>
 				<td width="65%" valign="top">
-					<font size="4" color="cyan">FRSC</font>
+					<font size="4" color="#FFF"><strong>EFCC</strong></font>
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-map-marker fa-2x"></i>
-					<p>Locate Office</p>
+					<p>Locate Station</p>
 				</td>
 				<td width="10%" align="center">
 					<a href="sendsos.php"><i class="fa fa-comments fa-2x"></i>
@@ -72,7 +72,7 @@
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-phone fa-2x"></i>
-					<p>Call Toll Free</p>
+					<p>Call Station</p>
 				</td>
 				<td width="3%">
 					<i class="fa fa-chevron-right fa-1x"></i>
@@ -91,11 +91,11 @@
 				</td>
 				<td width="2%"></td>
 				<td width="65%" valign="top">
-					<font size="4" color="#FFF">THE FIRE DEPARTMENT</font>
+					<font size="4" color="#FFF"><strong>THE FIRE DEPARTMENT</strong></font>
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-map-marker fa-2x"></i>
-					<p>Locate Office</p>
+					<p>Locate Station</p>
 				</td>
 				<td width="10%" align="center">
 					<a href="sendsos.php"><i class="fa fa-comments fa-2x"></i>
@@ -103,7 +103,7 @@
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-phone fa-2x"></i>
-					<p>Call Toll Free</p>
+					<p>Call Station</p>
 				</td>
 				<td width="3%">
 					<i class="fa fa-chevron-right fa-1x"></i>
@@ -122,11 +122,11 @@
 				</td>
 				<td width="2%"></td>
 				<td width="65%" valign="top">
-					<font size="4" color="lightgreen">POLICE</font>
+					<font size="4" color="lightgreen"><strong>POLICE</strong></font>
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-map-marker fa-2x"></i>
-					<p>Locate Office</p>
+					<p>Locate Station</p>
 				</td>
 				<td width="10%" align="center">
 					<a href="sendsos.php"><i class="fa fa-comments fa-2x"></i>
@@ -134,7 +134,7 @@
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-phone fa-2x"></i>
-					<p>Call Toll Free</p>
+					<p>Call Station</p>
 				</td>
 				<td width="3%">
 					<i class="fa fa-chevron-right fa-1x"></i>
@@ -153,11 +153,11 @@
 				</td>
 				<td width="2%"></td>
 				<td width="65%" valign="top">
-					<font size="4" color="#f9f">LASTMA</font>
+					<font size="4" color="#f9f"><strong>LASTMA</strong></font>
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-map-marker fa-2x"></i>
-					<p>Locate Office</p>
+					<p>Locate Station</p>
 				</td>
 				<td width="10%" align="center">
 					<a href="sendsos.php"><i class="fa fa-comments fa-2x"></i>
@@ -165,7 +165,7 @@
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-phone fa-2x"></i>
-					<p>Call Toll Free</p>
+					<p>Call Station</p>
 				</td>
 				<td width="3%">
 					<i class="fa fa-chevron-right fa-1x"></i>
@@ -184,11 +184,11 @@
 				</td>
 				<td width="2%"></td>
 				<td width="65%" valign="top">
-					<font size="4" color="yellow">LASEMA</font>
+					<font size="4" color="yellow"><strong>LASEMA</strong></font>
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-map-marker fa-2x"></i>
-					<p>Locate Office</p>
+					<p>Locate Station</p>
 				</td>
 				<td width="10%" align="center">
 					<a href="sendsos.php"><i class="fa fa-comments fa-2x"></i>
@@ -196,7 +196,7 @@
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-phone fa-2x"></i>
-					<p>Call Toll Free</p>
+					<p>Call Station</p>
 				</td>
 				<td width="3%">
 					<i class="fa fa-chevron-right fa-1x"></i>
@@ -215,11 +215,11 @@
 				</td>
 				<td width="2%"></td>
 				<td width="65%" valign="top">
-					<font size="4" color="yellow">NAFDAC</font>
+					<font size="4" color="yellow"><strong>NAFDAC</strong></font>
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-map-marker fa-2x"></i>
-					<p>Locate Office</p>
+					<p>Locate Station</p>
 				</td>
 				<td width="10%" align="center">
 					<a href="sendsos.php"><i class="fa fa-comments fa-2x"></i>
@@ -227,7 +227,7 @@
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-phone fa-2x"></i>
-					<p>Call Toll Free</p>
+					<p>Call Station</p>
 				</td>
 				<td width="3%">
 					<i class="fa fa-chevron-right fa-1x"></i>
@@ -246,11 +246,11 @@
 				</td>
 				<td width="2%"></td>
 				<td width="65%" valign="top">
-					<font size="4" color="yellow">NDLEA</font>
+					<font size="4" color="yellow"><strong>NDLEA</strong></font>
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-map-marker fa-2x"></i>
-					<p>Locate Office</p>
+					<p>Locate Station</p>
 				</td>
 				<td width="10%" align="center">
 					<a href="sendsos.php"><i class="fa fa-comments fa-2x"></i>
@@ -258,7 +258,7 @@
 				</td>
 				<td width="10%" align="center">
 					<i class="fa fa-phone fa-2x"></i>
-					<p>Call Toll Free</p>
+					<p>Call Station</p>
 				</td>
 				<td width="3%">
 					<i class="fa fa-chevron-right fa-1x"></i>
