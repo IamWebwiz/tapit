@@ -26,6 +26,19 @@ $(document).ready(function(){
 		
 	});
 
+	$("#locateStation").on("click", function(e){
+		$(this).attr("class", "active");
+		$("#sendSOS").attr("class", "");
+		$("#sospanel").hide();
+	});
+
+	$("#sendSOS").on("click", function(e){
+		$(this).attr("class", "active");
+		$("#locateStation").attr("class", "");
+		$("#sospanel").show();
+	});
+
+	$("#sospanel").hide();
 
 });
 
