@@ -107,81 +107,64 @@ function uploadFile($file_name){
 }
 ?>
 
-<?php require("header.php"); ?>
-<title>Tapit|Send SOS</title>
-	<div class="container">
-		<br>
-		<div align="center">
-			<a href="home.php" style="text-decoration: none">
-			<h1 class="header">T <span><img src="assets/images/iWarning.png" width="30px" height="30px"></span> P I T</h1>
-			<p class="tagline">Your Emergency Notification App</p>
-			</a>
-		</div>
-		<br>
-		<div class="row">
-			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-				<div class="panel panel-primary">
-					<div class="panel-heading">
-						<a href="chooseaction.php" style="color: #FFF; text-decoration: none;"><span class="fa fa-chevron-left"></span> SEND SOS</a>
-					</div>
-					
-					<div class="panel-body">
-						<!-- Form -->
-						<div class="row">
-							<div class="col-md-12">
-								<!-- <div class="container"> -->
-									<form role="form" method="post" autocomplete="no" action="" enctype="multipart/form-data">
-										<h2 class="text-primary">Send SOS Message</h2>
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <a href="chooseaction.php" style="color: #FFF; text-decoration: none;"><span class="fa fa-chevron-left"></span> SEND SOS</a>
+                </div>
+                
+                <div class="panel-body">
+                    <!-- Form -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- <div class="container"> -->
+                                <form role="form" method="post" autocomplete="no" action="" enctype="multipart/form-data">
+                                    <h2 class="text-primary">Send SOS Message</h2>
 
-										<div class="form-group">
-											<button class="btn btn-default btn-md" type="button" id="get-location-button">
-												<i class="glyphicon glyphicon-map-marker"></i> Get Location
-											</button>
-											<span id="address-waiting" style="display: none">Please wait while we get your address<img src="assets/images/spinner.gif" width="70"></span>
+                                    <div class="form-group">
+                                        <button class="btn btn-default btn-md" type="button" id="get-location-button">
+                                            <i class="glyphicon glyphicon-map-marker"></i> Get Location
+                                        </button>
+                                        <span id="address-waiting" style="display: none">Please wait while we get your address<img src="assets/images/spinner.gif" width="70"></span>
 
-											<label class="btn btn-primary btn-md">
-												<i class="fa fa-camera"></i> Upload Media<input type="file" name="fileToUpload" style="display: none" accept="image/*, video/*">
-											</label>
-										</div>
+                                        <label class="btn btn-primary btn-md">
+                                            <i class="fa fa-camera"></i> Upload Media<input type="file" name="fileToUpload" style="display: none" accept="image/*, video/*">
+                                        </label>
+                                    </div>
 
-										<div class="form-group">
-											<label for="location">Location</label>
-											<span id="location-gotten" class="text-success"></span>
-											<input type="text" name="location" placeholder="Obafemi Awolowo University" class="form-control" id="address-input">
-										</div>
+                                    <div class="form-group">
+                                        <label for="location">Location</label>
+                                        <span id="location-gotten" class="text-success"></span>
+                                        <input type="text" name="location" placeholder="Obafemi Awolowo University" class="form-control" id="address-input">
+                                    </div>
 
-										<div class="form-group">
-											<label for="message">Message</label>
-											<textarea class="form-control" placeholder="Someone is vomitting!" rows="6" name="message"></textarea>
-										</div>
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea class="form-control" placeholder="Someone is vomitting!" rows="6" name="message"></textarea>
+                                    </div>
 
-										<div class="form-group">
-											<button type="submit" name="submit" class="btn btn-danger"><i class="fa fa-send-o"></i> Send</button>
-										</div>
-										<?php if (isset($_SESSION['sos_message_alert'])): ?>
-											<div class="alert alert-success">
-												Your message has been sent. Help is on the way.
-											</div>
-											<?php $_SESSION['sos_message_alert'] = NULL ?>
-										<?php endif; ?>
-									</form>
-								<!-- </div> -->
-							</div>
-						</div>
-					</div> <!-- /.panel-body -->
-					
-					<div class="panel-footer">
-						<em>&copy; 2017 Tapit Emergency Notification App</em>
-					</div> <!-- /.panel-footer -->
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<style>
-		body {
-			color: #000;
-		}
-	</style>
-
-<?php require("footer.php"); ?>
+                                    <div class="form-group">
+                                        <button type="submit" name="submit" class="btn btn-danger"><i class="fa fa-send-o"></i> Send</button>
+                                    </div>
+                                    <?php if (isset($_SESSION['sos_message_alert'])): ?>
+                                        <div class="alert alert-success">
+                                            Your message has been sent. Help is on the way.
+                                        </div>
+                                        <?php $_SESSION['sos_message_alert'] = NULL ?>
+                                    <?php endif; ?>
+                                </form>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div> <!-- /.panel-body -->
+                
+                <div class="panel-footer">
+                    <em>&copy; 2017 Tapit Emergency Notification App</em>
+                </div> <!-- /.panel-footer -->
+            </div>
+        </div>
+    </div>
+</div>

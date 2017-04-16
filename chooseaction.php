@@ -20,10 +20,13 @@
 				</div>
 				<!-- Panel body -->
 				<div class="panel-body">
-					<ul class="nav nav-pills nav-justified">
-						<li><a href="#" class="btn btn-primary btn-lg"><span class="fa fa-map-marker"></span> Locate Station</a></li>
-						<li><a href="sendsos.php" class="btn btn-danger btn-lg"><span class="fa fa-comments"></span> Send SOS</a></li>
+					<ul class="nav nav-tabs nav-justified">
+						<li id="locateStation"><a href="#"><span class="fa fa-map-marker"></span> Locate Station</a></li>
+						<li id="sendSOS"><a href="#"><span class="fa fa-comments"></span> Send SOS</a></li>
 					</ul>
+					<div class="container-fluid" id="sospanel">
+						<?php include "sendsos.php" ?>
+					</div>
 				</div>
 				<!-- Panel footer -->
 				<div class="panel-footer">

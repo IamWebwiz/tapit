@@ -19,6 +19,6 @@
 
 	<!-- Custom Fonts by Font-Awesome -->
 	<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
-
+	<script src="assets/js/jquery-3.1.1.min.js"></script>
 </head>
 <body>
